@@ -653,3 +653,92 @@
 // for (var x=0; x<students.length; x++) {
 //     document.write("Score of " + students[x] + " is " + scores[x] + ". Percentage: " + (scores[x]/500*100) + "% <br>")
 // }
+
+
+// // Task 9
+// var colors = ["red", "blue", "green","yellow"];
+// var clraddbegin = prompt("Please enter the name of the color to add in the beginning");
+// colors.unshift(clraddbegin);
+// for (var x=0;x<colors.length;x++) {
+//     document.write(colors[x] + "<br>");
+// }
+// var clraddbegin = prompt("Please enter the name of the color to add in the end");
+// colors.push(clraddbegin);
+// for (var x=0;x<colors.length;x++) {
+//     document.write(colors[x] + "<br>");
+// }
+// colors.unshift("pink","purple");
+// for (var x=0;x<colors.length;x++) {
+//     document.write(colors[x] + "<br>");
+// }
+// colors.shift();
+// for (var x=0;x<colors.length;x++) {
+//     document.write(colors[x] + "<br>");
+// }
+// colors.pop();
+// for (var x=0;x<colors.length;x++) {
+//     document.write(colors[x] + "<br>");
+// }
+// var indexToAdd = prompt("At which index color should be added")
+// var colorToAdd = prompt("What should be added")
+// colors.splice(indexToAdd,0,colorToAdd);
+// for (var x=0;x<colors.length;x++) {
+//     document.write(colors[x] + "<br>");
+// }
+// var indexToDel = prompt("From which index colors should be deleted");
+// var colorsToDel = prompt("How many colors should be deleted?");
+// colors.splice(indexToDel,colorsToDel);
+// for (var x=0;x<colors.length;x++) {
+//     document.write(colors[x] + "<br>");
+// }
+
+
+// //Task 10
+// studentScores = [320,230,480,120];
+// document.write("Scores of Students: " + studentScores)
+// document.write("<br>");
+// studentScores.sort();
+// document.write("Ordered scores of Students: " + studentScores)
+
+
+// //Task 11 
+// citiesList = ["Karachi","Lahore","Islamabad","Quetta","Peshawar"];
+// selectedCities=citiesList.slice(0,3);
+// document.write(citiesList);
+// document.write("<br>");
+// document.write(selectedCities);
+
+// // Task 12
+// var arr = ["This","is","my","cat"];
+// var myString = arr.join(" ");
+// document.write(myString);
+
+// //Task 13
+// newArray = [];
+// newArray[0]="keyboard";
+// newArray[1]="mouse";
+// newArray[2]="printer";
+// newArray[3]="monitor";
+// document.write(newArray);
+
+
+// //Task 14
+// newArray = [];
+// newArray[0]="keyboard";
+// newArray[1]="mouse";
+// newArray[2]="printer";
+// newArray[3]="monitor";
+// newArray.reverse();
+// document.write(newArray);
+
+
+// //Task 15
+// var manufacturers = ["Apple","Samsung","Motorola","Nokia","Sony","Haier"];
+// document.write("<h1>Phone Manufacturers</h1>");
+// document.write("<form>");
+// document.write('<select name="manufacturers">');
+// for (var x=0;x<manufacturers.length;x++) {
+//     document.write("<option value =" + manufacturers[x] + ">" + manufacturers[x] + "</option>");
+// }
+// document.write("</select>");
+// document.write("</form>");
