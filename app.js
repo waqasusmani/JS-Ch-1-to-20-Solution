@@ -742,3 +742,125 @@
 // }
 // document.write("</select>");
 // document.write("</form>");
+
+
+// //Chapters 17 to 20
+
+// //Task 1
+// var arrayofArrays = [[]];
+
+
+// //Task 2
+// var arrayofArrays = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+// for (var x=0;x<arrayofArrays.length;x++) {
+//     document.write(arrayofArrays[x] + "<br>");
+// }
+
+
+// //Task 3
+// for (var x=1;x<=10;x++) {
+//     document.write(x + "<br>");
+// }
+
+
+// //Task 4
+// var tableNumber = prompt("Enter a numebr to show its multiplication table");
+// var tableLength = prompt("Enter length of multiplication table");
+// for (var x=0; x<=tableLength;x++) {
+//     document.write(tableNumber + " x " + x + " = " + tableNumber*x + "<br>");
+// }
+
+
+// //Task 5
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+// for (var x=0; x<=fruits.length-1;x++) {
+//     document.write("Element at index " + x + " is " + fruits[x] + "<br>");
+// }
+
+
+// //Task 6
+// //a)
+// var counting = [];
+// for (var x=0;x<=15;x++) {
+//     counting[x] = x;
+// }
+// document.write("<p>Counting:</p>")
+// document.write(counting);
+// //b)
+// var reverseCounting=[];
+// for (var x=10, y=0;x>=1;x--) {
+//     reverseCounting[y] = x;
+//     y++
+// }
+// document.write("<p>Reverse counting:</p>")
+// document.write(reverseCounting);
+// //c)
+// evenNumbers = [];
+// for (var x=0;x<=20;x++) {
+//     if (x%2==0) {
+//         evenNumbers.push(x);
+//     }
+// }
+// document.write("<p>Even:</p>")
+// document.write(evenNumbers);
+// //d)
+// oddNumbers = [];
+// for (var x=0;x<=20;x++) {
+//     if (x%2!=0) {
+//         oddNumbers.push(x);
+//     }
+// }
+// document.write("<p>Odd:</p>")
+// document.write(oddNumbers);
+// //e)
+// series = [];
+// for (var x=0;x<=20;x++) {
+//     if (x%2==0 && x!=0) {
+//         series.push(x + "k");
+//     }
+// }
+// document.write("<p>Series:</p>")
+// document.write(series);
+
+
+// //Task 7
+// var items = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var userInput = prompt("Welcome to ABC Bakery. What do you want to order Sir/ Ma'am");
+// if (items.indexOf(userInput)!=-1){
+//     document.write(userInput + " is available at index " + items.indexOf(userInput) + " in our bakery.");
+// }
+// else {
+//     document.write("We are sorry. " + userInput + " is not available in our bakery.")
+// }
+
+
+// // Task 8
+// arrayForMax = [24, 53, 78, 91, 12];
+// document.write("Array items: " + arrayForMax + "<br>")
+// var max=arrayForMax[0];
+// for (var x=0;x<arrayForMax.length;x++){
+//     if (arrayForMax[x]>max) {
+//         max=arrayForMax[x];
+//     }
+// }
+// document.write("The largest number is " + max)
+
+
+// // Task 9
+// arrayForMin = [24, 53, 78, 91, 12];
+// document.write("Array items: " + arrayForMin + "<br>")
+// var min=arrayForMin[0];
+// for (var x=0;x<arrayForMin.length;x++){
+//     if (arrayForMin[x]<min) {
+//         min=arrayForMin[x];
+//     }
+// }
+// document.write("The smallest number is " + min)
+
+
+//Task 10
+for (var x=5;x<=100;x++) {
+    if(x%5==0){
+        document.write(x + ", ");
+    }
+}
